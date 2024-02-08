@@ -1,7 +1,7 @@
 # Game Analytics: A/B Testing the Impact of a Game Difficulty Variation
 (There is no dataset provided. I only uploaded the code I used as well as the result. Please take a look at the attached Jupyter Notebook for detail and visualization.)
 
-This project is an A/B test for the impact of a game difficulty variation. I have statistically tested for the difference between groups of two in-game metrics, GameExp, and Quest Completion Rate. By doing so, I can test for causation whether the difficulty adjustment creates a difference for players in the game.
+This project is an A/B test for the impact of a game difficulty variation. I have statistically tested the difference between groups of two in-game metrics, GameExp, and Quest Completion Rate. By doing so, I can test for causation whether the difficulty adjustment creates a difference for players in the game.
 
 ## Randomly Assigning Players into Two Groups
 Players were randomly assigned into two smaller groups, a control and a difficulty-adjusted group. Randomness will ensure that the two groups will have statistically the same characteristics. Next, I adjusted the game difficulty only for the difficulty-adjusted group. Finally, I conducted a two-sample t-test for two variables, GameExp, and Quest Completion Rate.
